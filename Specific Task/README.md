@@ -27,5 +27,13 @@ Standard computer vision GANs prioritize perceptual quality (how "real" an image
 - **Physical Validity Constraint:** Enforced terminal ReLU activations to guarantee positive energy generation, preventing the network from predicting impossible negative energy states.
 ## Results and Benchmarks
 ### Prediction of the GANs
-![Predictions](./Images/GAN's-Comparative-results.png)
-​​
+![Predictions](./Images/GAN's_Comparative_results.png)
+### Comparative Energy Ratio
+Mean energy ration of SRGAN = 18.587 <br>​​
+Mean energy ration of U-Net GAN = 6.391 <br>​​
+Mean energy ration of ESRGAN = 7.157
+### Comparative Standard Deviation
+Standard Deviation of SRGAN = 122.7576 <br>​​
+Standard Deviation of U-Net GAN = 41.5091 <br>​​
+Standard Deviation of ESRGAN = 32.4544​​
+![energy ratio](./Images/GAN's_Energy_ratio.png)
